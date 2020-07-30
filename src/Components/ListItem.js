@@ -13,7 +13,7 @@ class ListItem extends Component{
         return (
             <View>
                 <TouchableOpacity onPress={()=>handlePress(item.id)}>
-                    <Card text={item.title}  type="title"/>
+                    <Card text={item.title}/>
                 </TouchableOpacity>
                 {
                     renderItemDescription(item)

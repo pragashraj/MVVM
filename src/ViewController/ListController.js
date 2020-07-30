@@ -19,7 +19,7 @@ class ListController extends Component {
     renderItemDescription=(item)=>{
         const {selectedId}=this.state
         if(item.id===selectedId){
-            return <Card text={item.description} type="block"/>
+            return <Card text={item.description}/>
         }
     }
 
