@@ -3,10 +3,10 @@ import { StyleSheet, Text, View } from 'react-native'
 
 import FlatListItem from '../Components/FlatListItem'
 
-const FoodView = () => {
+const FoodView = ({foodData}) => {
     return (
         <View style={styles.container}>
-            <Text>food</Text>
+            <FlatListItem data={foodData} title="Pizza"/>
         </View>
     )
 }
@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
     container:{
         width:'100%',
         height:'100%',
-        backgroundColor:'white'
+        backgroundColor:'white',
     }
 })
 

@@ -2,9 +2,10 @@ import React, { Component } from 'react'
 import { Text, View } from 'react-native'
 
 import Data from '../Data/Data.json'
+import FoodModel from '../Model/FoodModel'
 
-class ListViewModel extends Component {
-   
+const accessData=()=>{
+    return FoodModel()
 }
 
-export {Data}
+export {Data,accessData}

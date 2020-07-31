@@ -48,12 +48,12 @@ const FlatListItem = ({data,title}) => {
 const styles = StyleSheet.create({
     container:{
         width:'100%',
-        height:'100%'
+        height:'100%',
     },
 
     ListTitleView:{
         width:'100%',
-        height:'20%',
+        height:'10%',
         justifyContent:'center',
     },
 
@@ -61,19 +61,20 @@ const styles = StyleSheet.create({
         fontSize:18,
         color:'green',
         marginLeft:'10%',
-        fontWeight:'900'
+        fontWeight:'900',
     },
 
 
     ListComponent:{
         width:'96%',
-        marginLeft:'4%'
+        marginLeft:'4%',
     },
 
     img:{
         width:250,
         height:150,
-        marginLeft:10
+        marginLeft:10,
+        marginBottom:'5%'
     },
 
 })
